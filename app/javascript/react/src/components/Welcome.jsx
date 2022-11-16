@@ -3,12 +3,12 @@ import * as ReactDOM from 'react-dom'
 
 // function oriented component(ES6)
 const Welcome = () => {
-  return(
+  return (
     <div className='container'>
-      <h1>Rails 7 with React!</h1>
+      <h1 className="title">Rails 7 with React!</h1>
       <p className='subtitle'>from ./react/src/components/Welcome.jsx</p>
     </div>
-  )
+  );
 }
 
 document.addEventListener('DOMContentLoaded', () => {
