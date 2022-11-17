@@ -5,7 +5,7 @@ import * as ReactDOM from 'react-dom'
 const Welcome = () => {
   return (
     <div className='container'>
-      <h1 className="title">Rails 7 with React!</h1>
+      <h1 className="title bg-dark text-white rounded p-3 text-center">Rails 7 with React!</h1>
       <p className='subtitle'>from ./react/src/components/Welcome.jsx</p>
     </div>
   );
