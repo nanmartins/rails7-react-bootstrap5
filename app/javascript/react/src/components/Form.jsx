@@ -3,9 +3,9 @@ import * as ReactDOM from 'react-dom'
 
 const Form = () => {
   return (
-    <form>
-      <input type="text" placeholder="Search..." name="search" />
-      <button type="submit"><i className="fa fa-search"></i></button>
+    <form className='form-body'>
+      <input type="text" placeholder="Search..." name="search" className='search-body'/>
+      <button type="submit" className='search-btn'><i className="search-icon fa fa-search"></i></button>
 
       {/* <label htmlFor="name">Name</label>
       <input type="text" id="name" /> */}

@@ -11,10 +11,17 @@ const Header = () => {
           <img src={window.logo} className="header-logo"/>
         </a>
       </div>
+
       <Form />
-      <div className="cart-icon">
-      <a href="/">
-          <img src={window.cart} className="header-cart-icon"/>
+
+      <div className="header-icons">
+        <a href="/">
+          {/* <img src={window.cart} className="header-cart-icon"/> */}
+          <i className="header-icon bi-person"></i>
+        </a>
+
+        <a href="/">
+          <i className="header-icon bi-cart"></i>
         </a>
       </div>
 
