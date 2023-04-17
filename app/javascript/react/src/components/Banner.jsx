@@ -1,6 +1,7 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 
+
 const Banner = () => {
   return (
     <div className="img-container">
